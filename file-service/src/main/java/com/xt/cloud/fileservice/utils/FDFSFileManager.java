@@ -39,7 +39,7 @@ public class FDFSFileManager implements IConfig{
      * 删除文件
      * @param groupName the group name LIKE "group1"
      * @param uri       the uri LIKE "M00/00/00/SSS_HHH_AAA_WWW_NNN.doc"
-     * @return  0=success // 2=file not exist // other number=error
+     * @return  0 -> success // 2 -> file not exist // others -> error
      */
     public static int delete(String groupName, String uri) {
         int i = 0;

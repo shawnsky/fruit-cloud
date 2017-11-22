@@ -17,18 +17,6 @@ public class FDFSFile implements IConfig {
 
     private String length;
 
-//
-//    public FDFSFile(byte[] content, String ext) {
-//        this.content = content;
-//        this.extension = ext;
-//    }
-//
-//    public FDFSFile(byte[] content, String name, String ext) {
-//        this.content = content;
-//        this.name = name;
-//        this.extension = ext;
-//    }
-
     public FDFSFile(byte[] content, String name, String extension, String length) {
         this.content = content;
         this.name = name;

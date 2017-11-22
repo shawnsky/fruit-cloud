@@ -35,6 +35,6 @@ public class FDFSController {
     public String delete(String groupName, String uri){
         return String.valueOf(FDFSFileManager.delete(groupName, uri));
     }
-    
+
 
 }
